@@ -15,21 +15,25 @@ aside{
     background-color:#1CD1B0;
     font-size: 20px;
     height: 2rem;
-    position: fixed;
     width: 100%;
     z-index: 2;
 }
 
 /* titulo principal */
 h1{
-    background-color: #00669F;
-    color: white;
-    font-weight: normal;
     padding: 1rem;
-    padding-top: 40px;
-    box-shadow: 5px 5px 5px gray;
+    padding-top: 30px;
+    color: white;
+    font-size: 50px;
+    background-color: #00669F;
+    width: 100%;
+ 
 }
-
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 /* seccion tarjetas */
 .cards-super{
     width: 70%;
